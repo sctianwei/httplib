@@ -29,12 +29,12 @@ namespace JumpKick.HttpLib.Samples.wpf
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Http.Post("http://47.108.142.12/aipipeline-api/project/file/upload")
-                    .Headers(new { Authorization = $"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6IjA5YTM5ZWI5LTg3YjktNDAxMi1hYzY5LWNkZmFlNjk0ZGMyNSJ9.M-A1amaTCJA1LQgxIG9lpE711ncZ9lobIr0TwGxNJzj9Zoa915ELr9IQjaE5zd3APYEoGVmROhWh1QShyhXb7A" })
+            Http.Post("http://47.108.142.122/aipipeline-api/project/file/upload")
+                    .Headers(new { Authorization = $"eyJhbGciOiJIUzUxMiJ9.eyJsb2dpbl91c2VyX2tleSI6ImI3NjNlMTY0LTdkYjMtNDMyZS05NTBhLTQxODcwNmRiMzBjMiJ9.XOEFuRu9Ny9LHxLZBc2iOG-IKLvjJ4pGpLP97fJMs2ZU6rVBZXuy8rIPI_6kJp61tqNo9aY_g6jWdqnfrQhIBQ" })
                     .Upload(
                         files:
                         new[] {
-                            new NamedFileStream("file", "长乌临线-20211214-191456", "application/octet-stream", File.OpenRead(@"C:\Users\tianwei\Desktop\长乌临线-20211214-191456.zip"))
+                            new NamedFileStream("file", "长乌临线-20211214-191456.zip", "application/octet-stream", File.OpenRead(@"C:\Users\tianwei\Desktop\长乌临线-20211214-191456.zip"))
                         },
                         parameters:
                         new { projectType = 1, newProjectName = "长乌临线-20211214-191456" })

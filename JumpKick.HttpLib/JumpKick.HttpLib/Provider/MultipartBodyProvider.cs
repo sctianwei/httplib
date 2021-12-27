@@ -69,7 +69,7 @@ namespace JumpKick.HttpLib.Provider
                     while (enumerator.MoveNext())
                     {
                         var property = enumerator.Current;
-                        writer.Write(string.Format("--{0}\r\ncontent-disposition: form-data; name=\"{1}\"\r\n\r\n{2}\r\n", boundary, System.Uri.EscapeDataString(property.Name), System.Uri.EscapeDataString(property.GetValue(parameters, null).ToString())));
+                        writer.Write(string.Format("--{0}\r\ncontent-disposition: form-data; name=\"{1}\"\r\n\r\n{2}\r\n", boundary, System.Uri.EscapeDataString(property.Name), property.GetValue(parameters, null).ToString()));
                         writer.Flush();
                     }
                 }
