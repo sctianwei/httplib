@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpKick.HttpLib", "JumpKick.HttpLib\JumpKick.HttpLib.csproj", "{D626C4EC-D793-4541-8631-1AF678A29490}"
 EndProject
@@ -9,9 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpKick.HttpLib.Tests", "J
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpKick.HttpLib.Samples", "JumpKick.HttpLib.Samples\JumpKick.HttpLib.Samples.csproj", "{E02B897F-ADF4-439B-82A4-945DF99B1991}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpKick.HttpLib.Silverlight", "JumpKick.HttpLib.Silverlight\JumpKick.HttpLib.Silverlight.csproj", "{C3449629-4640-4D50-9ADA-B1668757CDDC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpKick.HttpLib.Portable", "JumpKick.HttpLib.Portable\JumpKick.HttpLib.Portable.csproj", "{1DBFBA67-483E-4C86-AA43-C1755D063188}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JumpKick.HttpLib.Samples.wpf", "JumpKick.HttpLib.Samples.wpf\JumpKick.HttpLib.Samples.wpf.csproj", "{3D561909-1A10-4DDF-A779-9714D588FFFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,16 +29,15 @@ Global
 		{E02B897F-ADF4-439B-82A4-945DF99B1991}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E02B897F-ADF4-439B-82A4-945DF99B1991}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E02B897F-ADF4-439B-82A4-945DF99B1991}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C3449629-4640-4D50-9ADA-B1668757CDDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C3449629-4640-4D50-9ADA-B1668757CDDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C3449629-4640-4D50-9ADA-B1668757CDDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C3449629-4640-4D50-9ADA-B1668757CDDC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1DBFBA67-483E-4C86-AA43-C1755D063188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1DBFBA67-483E-4C86-AA43-C1755D063188}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1DBFBA67-483E-4C86-AA43-C1755D063188}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1DBFBA67-483E-4C86-AA43-C1755D063188}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D561909-1A10-4DDF-A779-9714D588FFFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D561909-1A10-4DDF-A779-9714D588FFFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D561909-1A10-4DDF-A779-9714D588FFFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D561909-1A10-4DDF-A779-9714D588FFFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {910068CC-14C3-4DA4-B136-DB3BCA79C119}
 	EndGlobalSection
 EndGlobal
